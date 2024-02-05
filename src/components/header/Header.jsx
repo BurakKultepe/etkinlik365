@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import logo from '../../assets/etkinlik365-logo.jpg';
+import logo from '../../assets/etkinlik365-logo-2.jpg';
 import './HeaderStyles.css';
 
 function Header() {
