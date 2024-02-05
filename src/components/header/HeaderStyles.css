@@ -2,7 +2,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #d83f05;
+    background: #fff;
     padding: 10px 80px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
   }
@@ -23,7 +23,7 @@ nav {
     text-decoration: none;
     font-size: 1.3rem;
     font-weight: 600;
-    color: #fff;
+    color: #e0c1a2;
     position: relative;
     transition: color 0.3s ease-in-out;
   }

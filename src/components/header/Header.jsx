@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import logo from '../../assets/etkinlik365-logo-2.jpg';
+import logo from '../../assets/etkinlik365-logo-2-bgremove.png';
 import './HeaderStyles.css';
 
 function Header() {
@@ -19,7 +19,7 @@ function Header() {
         </Typography> */}
       </div>
       <nav>
-        <img src={logo} alt="etkinlik365-logo" width={150} />
+        <img src={logo} alt="etkinlik365-logo" width={250} />
         <div></div>
         <ul className="navbar">
           <li>
@@ -28,7 +28,7 @@ function Header() {
               className={activeLink === '/' ? 'active-link' : ''}
               onClick={() => setActiveLink('/')}
             >
-              Home
+              Anasayfa
             </Link>
           </li>
           <li>
@@ -46,7 +46,7 @@ function Header() {
               className={activeLink === '/sport' ? 'active-link' : ''}
               onClick={() => setActiveLink('/sport')}
             >
-              Sport
+              Spor
             </Link>
           </li>
           <li>
