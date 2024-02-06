@@ -1,5 +1,5 @@
 .footer {
-    background-color: #643843; /* Koyu mavi arka plan rengi */
+    background-color: #381c23; /* Koyu mavi arka plan rengi */
     color: white; /* Yazı rengi beyaz */
     padding: 20px;
     font-family: 'Arial', 'Helvetica', sans-serif;
@@ -7,7 +7,7 @@
   }
   .footer-section {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
   .quick-links ul {
     list-style: none;
@@ -29,6 +29,12 @@
   .copyright-info {
     text-align: center;
     margin-top: 20px;
+  }
+  .social-media{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 10px;
   }
   @media screen and (max-width: 768px) {
     .footer-section {
