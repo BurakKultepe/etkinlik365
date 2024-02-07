@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.cinema-container {
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .Movies-in-theaters {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .movie-item {
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .movie-item img {
+    width: 200px;
+    height: auto;
+  }
+  
+  .movie-item p {
+    margin-top: 5px;
+  }
+  

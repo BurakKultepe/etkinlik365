@@ -1,50 +1,60 @@
+/* Google Fonts'tan Poppins fontunu import et */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
 .footer {
     background-color: #381c23; /* Koyu mavi arka plan rengi */
     color: white; /* Yazı rengi beyaz */
     padding: 20px;
-    font-family: 'Arial', 'Helvetica', sans-serif;
-    
-  }
-  .footer-section {
+    font-family: 'Poppins', sans-serif; /* Poppins fontunu kullan */
+}
+
+.footer-section {
     display: flex;
     justify-content: space-evenly;
-  }
-  .quick-links ul {
+}
+
+.quick-links ul {
     list-style: none;
     padding: 0;
     margin-top: 20px;
-  }
-  .footer-link {
+}
+
+.footer-link {
     text-decoration: none;
     color: white; /* Link rengi beyaz */
     margin-bottom: 10px; /* Linkler arasında genel boşluk bırak */
     display: block; /* Linkleri blok eleman yaparak alt alta sırala */
-  }
-  .footer-link:hover {
+}
+
+.footer-link:hover {
     text-decoration: underline;
-  }
-  .footer-link + .footer-link {
+}
+
+.footer-link + .footer-link {
     margin-top: 15px; /* Bir linkten sonraki link ile arasında biraz daha fazla boşluk bırak */
-  }
-  .copyright-info {
+}
+
+.copyright-info {
     text-align: center;
     margin-top: 20px;
-  }
-  .social-media{
+}
+
+.social-media{
     display: flex;
     justify-content: center;
     gap: 10px;
     padding-top: 10px;
-  }
-  @media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 768px) {
     .footer-section {
-      flex-direction: column;
-      align-items: center;
+        flex-direction: column;
+        align-items: center;
     }
-  
+
     .quick-links,
     .products,
     .contact-info {
-      display: none;
+        display: none;
     }
-  }
+}
