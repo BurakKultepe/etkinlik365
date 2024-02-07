@@ -11,7 +11,7 @@ function Footer() {
     <footer className='footer'>
     <div className="footer-section">
     <div className="quick-links">
-    <Typography variant="h6" color="inherit" style={{ fontWeight: "bold", borderBottom: "1px solid white", paddingBottom: "5px", fontFamily: 'Arial, Helvetica, sans-serif' }}>
+    <Typography variant="h6" color="inherit" style={{ fontWeight: "bold", borderBottom: "1px solid white", paddingBottom: "5px", fontFamily: 'Poppins, sans-serif' }}>
             YARDIM
     </Typography>
     <ul style={{ listStyle: "none", padding: 0, marginTop: "10px" }}>
@@ -23,7 +23,7 @@ function Footer() {
     </ul>
     </div>
     <div className="quick-links">
-    <Typography variant="h6" color="inherit" style={{ fontWeight: "bold", borderBottom: "1px solid white", paddingBottom: "5px", fontFamily: 'Arial, Helvetica, sans-serif' }}>
+    <Typography variant="h6" color="inherit" style={{ fontWeight: "bold", borderBottom: "1px solid white", paddingBottom: "5px", fontFamily: 'Poppins, sans-serif' }}>
             HAKKIMIZDA
     </Typography>
     <ul style={{ listStyle: "none", padding: 0, marginTop: "10px" }}>
@@ -40,7 +40,7 @@ function Footer() {
     </ul>
     </div>
     <div className="quick-links">
-    <Typography variant="h6" color="inherit" style={{ fontWeight: "bold", borderBottom: "1px solid white", paddingBottom: "5px", fontFamily: 'Arial, Helvetica, sans-serif' }}>
+    <Typography variant="h6" color="inherit" style={{ fontWeight: "bold", borderBottom: "1px solid white", paddingBottom: "5px", fontFamily: 'Poppins, sans-serif' }}>
             İLETİŞİM
     </Typography>
     <ul style={{ listStyle: "none", padding: 0, marginTop: "10px" }}>
@@ -52,7 +52,7 @@ function Footer() {
     </ul>
     </div>
     <div className="quick-links">
-    <Typography variant="h6" color="inherit" style={{ fontWeight: "bold", borderBottom: "1px solid white", paddingBottom: "5px", fontFamily: 'Optima , Helvetica, sans-serif' }}>
+    <Typography variant="h6" color="inherit" style={{ fontWeight: "bold", borderBottom: "1px solid white", paddingBottom: "5px", fontFamily: 'Poppins, sans-serif' }}>
             BİZİ TAKİP EDİN
     </Typography>
     <div className="social-media">
@@ -76,7 +76,7 @@ function Footer() {
     </div>
     
     <div className="copyright-info">
-        <Typography variant="body2" color="inherit" style={{ fontFamily: 'Arial, Helvetica, sans-serif' }}>
+        <Typography variant="body2" color="inherit" style={{ fontFamily: 'Poppins, sans-serif' }}>
           ©2024 Copyright Etkinlik365
         </Typography>
       </div>
