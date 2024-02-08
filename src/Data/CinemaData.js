@@ -44,7 +44,7 @@ let cinemaData = [
         name: "Cem Karaca'nın Gözyaşları",
         image: img4,
         date: "26.01.2024",
-        type: "Dram, Biyografi, Komedi",
+        type: "Dram, Biyografi",
         director: "Yüksel Aksu",
         starActor: "İsmail Hacıoğlu",
         trailer: "https://youtu.be/kdc1eXDB6SE",
