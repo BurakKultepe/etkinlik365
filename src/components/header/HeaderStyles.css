@@ -89,3 +89,34 @@ nav {
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+  @media screen and (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    
+    .navbar {
+      display: none;
+      flex-direction: column;
+      margin-top: 20px;
+    }
+  
+    .search-input {
+      display: none;
+    }
+  
+    .user-login {
+      display: none;
+    }
+    
+  
+    .drawer-icon[data-isdraweropen="false"] {
+      display: block;
+    }
+    
+    .drawer-icon[data-isdraweropen="true"] {
+      display: none;
+    }
+  }
